@@ -33,9 +33,6 @@ public class ClientTest {
 		
 		personByName1 = p.stream().collect(Collectors.groupingBy(Person::getName));
 
-	
-		
-
 	}
 
 }
